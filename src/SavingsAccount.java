@@ -8,10 +8,10 @@ public class SavingsAccount extends Account {
     }
 
     /*
-    Overload the withdraw method to check if the withdrawal exceeds the overdraft limit.
-    Use assertions.
-    Overload the deposit method to check if the deposit is greater than 0.
-    Use assertions.
+    Override the withdraw method to check if the withdrawal exceeds the balance.
+    Use assertions to determine if amount is greater than 0. Perform withdraw operation.
+    Override the deposit method to check if the deposit is greater than 0.
+    Use assertions to determine if amount if greater than 0. Perform deposit operation.
      */
 
     public double getInterestRate() {

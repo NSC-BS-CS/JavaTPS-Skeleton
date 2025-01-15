@@ -17,8 +17,8 @@ public abstract class Account {
     public abstract void withdraw(double amount) throws InsufficientFundsException;
 
     // Overload withdraw method to accept an additional fee parameter (withdraw(double amount, double fee)):
-    // Withdraw the given amount plus the fee. Use assertions and handle
-    // exceptions properly.
+    // Withdraw the given amount plus the fee.
+    // Use assertions and handle exceptions properly.
 
     public int getAccountNumber() {
         return accountNumber;
