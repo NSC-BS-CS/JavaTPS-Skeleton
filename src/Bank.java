@@ -40,7 +40,7 @@ public class Bank<T extends Account> {
     // Overload the performTransaction method to allow for transactions with additional
     // parameter fees to handle fees when a withdrawal is happening.
 
-    // List all accounts in the bank
+    // List all accounts in the bank. Add a parameter in here that uses a wildcard to accept any account types
     public void listAccounts() {
         System.out.println("Accounts in the Bank:");
         for (T account : accounts) {
